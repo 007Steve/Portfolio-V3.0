@@ -1,0 +1,12 @@
+.scrollDown{
+    display: flex;
+    justify-content: center;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+  z-index: 3;
+}
+.scrollDown__Img{
+    height: 20px;
+}
