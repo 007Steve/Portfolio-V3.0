@@ -6,7 +6,7 @@ export default function Model(props) {
   const { nodes, materials } = useGLTF('/tzIcon.glb')
   const [ref, api] = useBox(() => ({ args: [2, 2, 1], mass: 1, scale: [2, 2, 2] }));
   return (
-    <group ref={group} ref={ref} {...props} dispose={null}>
+    <group  ref={ref} {...props} dispose={null}>
       <mesh
         castShadow
         receiveShadow
