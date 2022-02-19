@@ -1,0 +1,19 @@
+.contactLinks{
+    color: black;
+}
+.contactLinks__icon{
+    margin-right: 1rem;
+    cursor: pointer;
+    color: black;
+}
+
+.twitter:hover {
+    color: #1b9cef;
+  }
+  .linkedin:hover {
+    color: #0c65c2;
+  }
+  .github:hover {
+    color: #1b1f239d;
+  }
+  
