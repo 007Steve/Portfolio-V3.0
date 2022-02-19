@@ -6,7 +6,7 @@ function AboutSection() {
         <section id="about" className={styles.aboutSection}>
             <div className={styles.aboutSection__container}>
                 <div className={styles.aboutSection__textsContainer}>
-                  <h1 className={styles.aboutSection__nameSpan}>I'm </h1>
+                  <h1 className={styles.aboutSection__nameSpan}>{`I'm`} </h1>
                   <h1 className={styles.aboutSection__name}> Stephen Plummer</h1>
                 </div>
                 <p className={styles.aboutSection__p}>
