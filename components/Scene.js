@@ -12,9 +12,6 @@ function Scene() {
                     {/* <Debug> */}
                     <Suspense fallback={null}>
                         <LabIcon />
-                        <LabIcon />
-                        <LabIcon />
-                        <LabIcon />
                         <Environment preset="warehouse" />
                         <PhysicsBorders />
                     </Suspense>
