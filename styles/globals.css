@@ -14,3 +14,10 @@ a {
 * {
   box-sizing: border-box;
 }
+
+canvas {
+
+  height: 100vh;
+  z-index: 2;
+
+}
