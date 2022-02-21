@@ -1,0 +1,18 @@
+.landingPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+    z-index: 10000;
+}
+
+.landingPage__container {}
+
+/* Iphone X */
+@media only screen and (max-width: 375px) {
+    .landingPage {
+        /* min-height: 100vh; */
+
+    }
+}
