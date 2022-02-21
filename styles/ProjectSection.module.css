@@ -1,0 +1,34 @@
+.projectsSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+  
+    min-height: 100vh;
+  }
+  
+  .projectsSection__optionsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+  }
+  
+  .projectsSection__optionsTexts {
+    text-transform: uppercase;
+    color: #a1a1a1;
+    margin: 1rem;
+  }
+  
+  .projectsSection__optionsTexts:hover {
+    background: -webkit-linear-gradient(90deg, #1f1f71 0%, #333aac 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .projectsSection__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1rem;
+  }

@@ -1,0 +1,111 @@
+.projectCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 470px;
+    height: 270px;
+    border-radius: 10px;
+  
+    cursor: pointer;
+    margin: 0.51rem;
+    transition: ease-in-out 304ms;
+  }
+  .projectCard:hover {
+    box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);
+    transition: ease-in-out 304ms;
+  }
+  .projectCard__img {
+    height: 120px;
+  }
+  
+  .blue {
+    /* background-color: #5dfaff;
+    background-image: linear-gradient(160deg, #5dfaff 0%, #1881eb 100%); */
+    background-color: #315296;
+    background-image: linear-gradient(180deg, #315296 0%, #020922 100%);
+    
+   
+background-color: #fbfbfe;
+background-image: linear-gradient(180deg, #fbfbfe 0%, #cecee8 100%);
+
+background-color: #f4f8fe;
+background-image: linear-gradient(180deg, #f4f8fe 0%, #fdfeff 100%);
+
+  }
+  
+  .music {
+    /* background-color: #393657;
+      background-image: linear-gradient(180deg, #393657 0%, #12141b 100%); */
+    color: white;
+    background-color: #212121;
+    background-image: linear-gradient(180deg, #212121 0%, #000000 100%);
+  }
+  
+  .pink {
+     background-color: #8ec5fc;
+    background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+    background-color: #00cdfc;
+    background-image: linear-gradient(180deg, #00cdfc 0%, #005ef4 100%); 
+ 
+    
+  }
+  .chat {
+    background-color: #f4f4fb;
+    background-image: linear-gradient(180deg, #f4f4fb 0%, #d8e5fd 100%);
+
+    background-color: #f7f8fa;
+    background-image: linear-gradient(180deg, #f7f8fa 0%, #eaf4fc 100%);
+    
+    
+  }
+  
+  /* 
+/////////////////////////////
+Contact Section
+////////////////////////////
+*/
+  @media only screen and (max-width: 1024px) {
+  .projectCard{
+    width: 50vw;
+    height: 270px;
+    min-width: 249px;
+  }
+  }
+/* 
+/////////////////////////////
+Contact Section
+////////////////////////////
+*/
+  @media only screen and (max-width: 768px) {
+    .projectCard{
+      width: 60vw;
+      height: 270px;
+      min-width: 249px;
+    }
+    }
+/* 
+/////////////////////////////
+Iphone X
+////////////////////////////
+*/
+  
+  @media only screen and (max-width: 375px) {
+    .projectCard{
+      width: 70vw;
+      height: 240px;
+      /* min-width: 249px; */
+    }
+    }
+/* 
+/////////////////////////////
+Contact Section
+////////////////////////////
+*/
+    
+  @media only screen and (max-width: 414px) {
+    .projectCard{
+      width: 70vw;
+      height: 240px;
+      
+    }
+    }
