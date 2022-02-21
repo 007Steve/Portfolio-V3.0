@@ -11,7 +11,7 @@ function SkillsSection() {
                   title="Front-End"
                   img="/reactlogo.png"
                   p={[
-                    
+                    key,
                     "Develop user-frienly website that are responsive with frameworks",
                     <strong> {`React `}</strong>,
                     "and ",
