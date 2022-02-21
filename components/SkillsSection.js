@@ -7,15 +7,16 @@ function SkillsSection() {
             <h1 className={styles.skillsSection__title}>What I can do</h1>
             <div className={styles.skillsSection__container}>
                 <SkillsCard
-                key={1}
+             
                   title="Front-End"
                   img="/reactlogo.png"
-                  // p={[
-                  //   "Develop user-frienly website that are responsive with frameworks",
-                  //   <strong> React </strong>,
-                  //   "and ",
-                  //   <strong> NextJS </strong>,
-                  // ]}
+                  p={[
+                    
+                    "Develop user-frienly website that are responsive with frameworks",
+                    <strong> {`React `}</strong>,
+                    "and ",
+                    <strong> NextJS </strong>,
+                  ]}
                 />
                 <SkillsCard
                   title="Back-End"
