@@ -1,0 +1,74 @@
+.skillsCard {
+  text-align: left;
+  margin: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  min-width: 200px;
+  max-width: 200px;
+}
+
+.skillsCard__imgContainer {
+  height: 180px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f1f71;
+  background-image: linear-gradient(0deg, #1f1f71 0%, #333aac 100%);
+
+}
+
+.skillsCard__img {
+  width: 90px;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  margin: 0 auto;
+}
+
+.skillsCard__title {
+  margin-top: 1rem;
+  object-fit: contain;
+  font-size: 22px;
+}
+
+.skillsCard__texts {
+  color: #585858;
+  line-height: 1.5rem;
+  font-size: 14px;
+  margin-top: .1rem;
+}
+
+/* 
+/////////////////////////////
+Media Section
+////////////////////////////
+*/
+
+@media only screen and (max-width: 720px) {
+  .skillsCard {
+    margin: 3rem;
+    margin-top: 2rem;
+  }
+}
+
+/* ipad pro */
+@media only screen and (max-width: 1024px) {
+  .skillsCard {
+    margin: 3rem;
+    margin-top: 2rem;
+  }
+}
+
+/* iphone x */
+@media only screen and (max-width: 375px) {
+  .skillsCard {
+    /* background-color: tomato; */
+    text-align: center;
+  }
+
+  .skillsCard__imgContainer {
+    height: 180px;
+
+  }
+}
