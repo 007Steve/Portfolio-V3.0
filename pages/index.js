@@ -5,6 +5,7 @@ import HeaderSection from '../components/HeaderSection'
 import AboutSection from '../components/AboutSection'
 import SkillsSection from '../components/SkillsSection'
 import ProjectSection from '../components/ProjectSection'
+import ContactSection from '../components/ContactSection'
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -17,6 +18,7 @@ export default function Home() {
       <AboutSection />
       <SkillsSection />
       <ProjectSection />
+      <ContactSection/>
     </div>
   )
 }
