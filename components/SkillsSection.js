@@ -17,7 +17,7 @@ function SkillsSection() {
                     <strong> NextJS </strong>,
                   ]}
                 />
-                {/* <SkillsCard
+                <SkillsCard
                   title="Back-End"
                   img="/DataIcon.png"
                   color="orange"
@@ -42,7 +42,7 @@ function SkillsSection() {
                     <strong> VR </strong>,
                   ]}
                   key={3}
-                />  */}
+                /> 
               </div>
         </section>
     )
