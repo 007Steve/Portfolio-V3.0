@@ -6,7 +6,7 @@ function SkillsSection() {
         <section className={styles.skillsSection}>
             <h1 className={styles.skillsSection__title}>What I can do</h1>
             <div className={styles.skillsSection__container}>
-                <SkillsCard
+                {/* <SkillsCard
                 key={1}
                   title="Front-End"
                   img="/reactlogo.png"
@@ -42,7 +42,7 @@ function SkillsSection() {
                     <strong> VR </strong>,
                   ]}
                   key={3}
-                />
+                /> */}
               </div>
         </section>
     )
