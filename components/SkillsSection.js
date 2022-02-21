@@ -7,6 +7,7 @@ function SkillsSection() {
             <h1 className={styles.skillsSection__title}>What I can do</h1>
             <div className={styles.skillsSection__container}>
                 <SkillsCard
+                key={1}
                   title="Front-End"
                   img="/reactlogo.png"
                   p={[
@@ -28,6 +29,7 @@ function SkillsSection() {
                     "with",
                     <strong> Node JS</strong>,
                   ]}
+                  key={2}
                 />
                 <SkillsCard
                   title="Spatial Web"
@@ -39,6 +41,7 @@ function SkillsSection() {
                     "and ",
                     <strong> VR </strong>,
                   ]}
+                  key={3}
                 />
               </div>
         </section>
