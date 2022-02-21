@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../styles/SkillsCard.module.css";
-function SkillsCard({ title, img, color,p }) {
+function SkillsCard({ title, img,p }) {
   return (
     <div className={styles.skillsCard}>
       <div className={`${styles.skillsCard__imgContainer}`}>
