@@ -1,0 +1,85 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  flex: 1;
+  margin: 0 auto;
+}
+
+.form__title {}
+
+.form__inputName {
+  font-weight: 700;
+  font-size: 12px;
+  color: #9a9a9a;
+}
+
+.form__inputContainer {
+  margin-top: 2rem;
+  width: 50%;
+
+}
+
+.form__input {
+  border: none;
+  border-bottom: 1.5px solid #abafb34f;
+  width: 100%;
+  padding: 0.51rem 0rem;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 15px;
+}
+
+.form__btn {
+  border-radius: 5px;
+  padding: 0.51rem;
+  border: none;
+  background-color: #1f1f71;
+  background-image: linear-gradient(0deg, #1f1f71 0%, #333aac 100%);
+
+  cursor: pointer;
+  color: white;
+  font-weight: 900;
+  margin-top: 3rem;
+}
+
+.form__iconContainer {
+  display: flex;
+  align-items: center;
+}
+
+.form__icon {
+  color: #0ce955;
+  margin: 0.51rem;
+}
+
+.form__holderContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.form__holderInput {}
+
+.marginRight {
+  margin-right: 3rem;
+}
+
+/* 
+/////////////////////////////
+Media Section
+////////////////////////////
+*/
+
+@media only screen and (min-width: 1483px) {
+
+  .form {
+
+    max-width: 1800px;
+  }
+}
+
+
