@@ -4,7 +4,7 @@ import ProjectCard from './ProjectCard';
 function ProjectSection() {
   return (
     <section id="portfolio" className={styles.projectsSection}>
-      <h1 className={styles.title}>Portfolio</h1>
+      <h1 className={styles.projectsSection__title}>Portfolio</h1>
 
       <div className={styles.projectsSection__container}>
         <ProjectCard color="music" img="/music_logo.png" />
