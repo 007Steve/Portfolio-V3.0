@@ -3,7 +3,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   flex: 1;
   margin: 0 auto;
 }
@@ -30,6 +29,7 @@
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 15px;
+  
 }
 
 .form__btn {
@@ -60,6 +60,7 @@
   align-items: center;
   justify-content: center;
   width: 50%;
+ 
 }
 
 .form__holderInput {}
@@ -82,4 +83,16 @@ Media Section
   }
 }
 
+@media only screen and (max-width: 915px) {
+.form__inputContainer{
+ 
+  width: 80%;
+}
+.form__holderContainer{
+  width: 80%;
+}
+.form{
+  margin-bottom: 2rem;
+}
+}
 
