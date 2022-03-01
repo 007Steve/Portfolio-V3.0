@@ -52,3 +52,33 @@
     align-self: flex-end;
 
 }
+/* PHONES */
+@media only screen and (max-width: 915px) {
+    .aboutSection__photo {
+        display: none;
+    }
+    .aboutSection__container {
+        margin-left: 3rem;
+        flex: 1;
+        max-width: 500px;
+    
+    }
+    .aboutSection__textsContainer {
+        display: flex;
+        justify-content: center;
+        align-items: left;
+        flex-direction: column;
+    
+    }
+
+    .aboutSection__name{
+        margin: 0;
+        padding: 0;
+        
+    }
+    .aboutSection__nameSpan{
+        margin: 0;
+        padding: 0;
+        margin-bottom: 1rem
+    }
+}
