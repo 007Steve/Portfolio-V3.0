@@ -61,14 +61,20 @@ Media Section
 }
 
 /* iphone x */
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 915px) {
   .skillsCard {
-    /* background-color: tomato; */
+    margin: 1rem;
+    align-items: center;
+
+  }
+
+  .skillsCard__title {
+
     text-align: center;
   }
 
   .skillsCard__imgContainer {
     height: 180px;
-
+    width: 200px;
   }
 }

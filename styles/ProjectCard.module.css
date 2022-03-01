@@ -64,48 +64,14 @@ background-image: linear-gradient(180deg, #f4f8fe 0%, #fdfeff 100%);
 Contact Section
 ////////////////////////////
 */
-  @media only screen and (max-width: 1024px) {
-  .projectCard{
-    width: 50vw;
-    height: 270px;
-    min-width: 249px;
-  }
-  }
-/* 
-/////////////////////////////
-Contact Section
-////////////////////////////
-*/
-  @media only screen and (max-width: 768px) {
-    .projectCard{
-      width: 60vw;
-      height: 270px;
-      min-width: 249px;
-    }
-    }
-/* 
-/////////////////////////////
-Iphone X
-////////////////////////////
-*/
+
   
-  @media only screen and (max-width: 375px) {
+  @media only screen and (max-width: 915px) {
     .projectCard{
-      width: 70vw;
-      height: 240px;
+      width: 90vw;
+      height: 220px;
+      background-color: cornflowerblue;
       /* min-width: 249px; */
     }
     }
-/* 
-/////////////////////////////
-Contact Section
-////////////////////////////
-*/
-    
-  @media only screen and (max-width: 414px) {
-    .projectCard{
-      width: 70vw;
-      height: 240px;
-      
-    }
-    }
+
