@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.stephenplummer.dev
+
+# Sitemaps
+Sitemap: https://www.stephenplummer.dev/sitemap.xml
