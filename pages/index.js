@@ -25,6 +25,7 @@ export default function Home() {
         <meta name="google-site-verification" content="Pibz-wSlJ8mqoQ7lD1duv6-PDxLYKyMi_6wCfEmlSCU" />
         <meta name="Stephen Plummer is Software Ennineer based in Connecticut." content="I develop Full-Stack web applications for clients using React, Next JS, Express, and Mongo DB." />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="preconnect" href="https://www.stephenplummer.dev"></link>
       </Head>
       {show? <LandingPage/> : <>
       <HeaderSection />
