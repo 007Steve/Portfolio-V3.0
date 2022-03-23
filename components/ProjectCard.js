@@ -2,17 +2,26 @@ import React from "react";
 import Link from 'next/link'
 import { motion, AnimatePresence } from "framer-motion";
 import styles from "../styles/ProjectCard.module.css";
-function ProjectCard({ color,img }) {
+import Image from 'next/image'
+function ProjectCard({ color, img,website }) {
   return (
-    
-      <AnimatePresence>
-        <Link href={`/project/${color}`}>
+
+    <AnimatePresence>
+      <Link href={`${website}`}>
         <div exit={{ scale: 2 }} className={`${styles.projectCard} ${styles[color]}`}>
-          <img  className={styles.projectCard__img} src={img} alt=""/>
+          <Image height={200} width={200} src={img} />
+          <img className={styles.projectCard__img} src={img} alt="" />
+          {/* <div className={styles.projectCard__linkContainer}>
+            <Link href={`/project/${color}`}>
+            <h5 className={styles.projectCard__link}>Live</h5>
+            </Link>
+
+            <h5 className={styles.projectCard__link}>Code</h5>
+          </div> */}
         </div>
-        </Link>
-      </AnimatePresence>
-    
+      </Link>
+    </AnimatePresence>
+
   );
 }
 

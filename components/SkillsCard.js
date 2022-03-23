@@ -1,10 +1,12 @@
 import React from "react";
 import styles from "../styles/SkillsCard.module.css";
+import Image from 'next/image'
 function SkillsCard({ title, img,p }) {
   return (
     <div className={styles.skillsCard}>
       <div className={`${styles.skillsCard__imgContainer}`}>
-        <img className={styles.skillsCard__img }src={img} alt="" />
+        <Image  className={styles.skillsCard__img }src={img} height={200} width={200}/>
+        <img  alt="" />
       </div>
       <h2 className={styles.skillsCard__title}>{title} </h2>
       <p className={styles.skillsCard__texts}>
