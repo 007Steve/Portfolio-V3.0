@@ -9,8 +9,8 @@ import ContactSection from '../components/ContactSection'
 import LandingPage from '../components/LandingPage'
 import { useState, useEffect } from 'react'
 export default function Home() {
-  
-//show toggle
+
+  //show toggle
   const [show, setShow] = useState(true);
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -23,16 +23,17 @@ export default function Home() {
       <Head>
         <title>Stephen Plummer</title>
         <meta name="google-site-verification" content="Pibz-wSlJ8mqoQ7lD1duv6-PDxLYKyMi_6wCfEmlSCU" />
-        <meta name="Stephen Plummer is Software Ennineer based in Connecticut." content="I develop Full-Stack web applications for clients using React, Next JS, Express, and Mongo DB." />
+        <meta name="description" content="Stephen Plummer is Software Ennineer based in Connecticut.I develop Full-Stack web applications for clients using React, Next JS, Express, and Mongo DB."></meta>
+
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://www.stephenplummer.dev"></link>
       </Head>
-      {show? <LandingPage/> : <>
-      <HeaderSection />
-      <AboutSection />
-      <SkillsSection />
-      <ProjectSection />
-      <ContactSection/>
+      {false ? <LandingPage /> : <>
+        <HeaderSection />
+        <AboutSection />
+        <SkillsSection />
+        <ProjectSection />
+        <ContactSection />
       </>}
     </div>
   )
