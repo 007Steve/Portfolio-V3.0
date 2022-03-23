@@ -6,11 +6,10 @@ import Image from 'next/image'
 function Nav() {
 
   const [open, setOpen] = useState()
-
   return (
     <div className={styles.nav} >
       <Link href="/" passHref>
-      <Image height={200} width={200} src={img}  alt="a logo of an image of sp"/>
+      <Image height={200} width={200} src="/spB.png"  alt="a logo of an image of sp"/>
         
       </Link>
       <div className={styles.nav__menuContainer}>
