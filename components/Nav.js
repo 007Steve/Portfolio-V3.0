@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import styles from "../styles/Nav.module.css";
 import MenuIcon from "@material-ui/icons/Menu";
 import Link from "next/link";
+import Image from 'next/image'
 function Nav() {
 
   const [open, setOpen] = useState()
