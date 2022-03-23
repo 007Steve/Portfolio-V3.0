@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from "../styles/AboutSection.module.css";
 import ContactLinks from './ContactLinks';
+import Image from 'next/image'
 function AboutSection() {
     return (
         <section id="about" className={styles.aboutSection}>
@@ -23,11 +24,14 @@ function AboutSection() {
                 <ContactLinks size="medium" />
                 <p className={styles.aboutSection__line}></p>
               </div>
-              <img
-                className={styles.aboutSection__photo}
-                src="/headshot.png"
+              <Image  
+              
+              className={styles.aboutSection__photo}
+                src="/headshot.png" height={450} width={400} layout="fixed"/>
+              {/* <img
+              
                 alt=""
-              />
+              /> */}
         </section>
     )
 }
