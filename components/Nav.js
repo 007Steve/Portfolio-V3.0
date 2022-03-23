@@ -9,7 +9,8 @@ function Nav() {
   return (
     <div className={styles.nav} >
       <Link href="/">
-        <img className={styles.nav__logo} src="/spB.png" alt="an image of sp" />
+      <Image height={200} width={200} src={img}  alt="a logo of an image of sp"/>
+        {/* <img className={styles.nav__logo} src="/spB.png" alt="an image of sp" /> */}
       </Link>
       <div className={styles.nav__menuContainer}>
         <MenuIcon className={styles.nav__menu} onMouseEnter={() => setOpen(!open)}  />

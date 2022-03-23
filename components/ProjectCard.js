@@ -9,7 +9,7 @@ function ProjectCard({ color, img,website }) {
     <AnimatePresence>
       <Link href={`${website}`}>
         <div exit={{ scale: 2 }} className={`${styles.projectCard} ${styles[color]}`}>
-          <Image height={200} width={200} src={img} />
+          <Image height={200} width={200} src={img}  alt="a logo of project icon"/>
           <img className={styles.projectCard__img} src={img} alt="" />
           {/* <div className={styles.projectCard__linkContainer}>
             <Link href={`/project/${color}`}>

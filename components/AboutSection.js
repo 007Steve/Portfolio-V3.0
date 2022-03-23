@@ -27,7 +27,7 @@ function AboutSection() {
               <Image  
               
               className={styles.aboutSection__photo}
-                src="/headshot.png" height={450} width={400} layout="fixed"/>
+                src="/headshot.png" height={450} width={400} layout="fixed" alt="a logo of project icon"/>
               {/* <img
               
                 alt=""
