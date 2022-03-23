@@ -16,20 +16,20 @@ function Nav() {
       <div className={styles.nav__menuContainer}>
         <MenuIcon className={styles.nav__menu} onMouseEnter={() => setOpen(!open)}  />
         {open ? <ul className={styles.nav__menuLinksContainer} onMouseLeave={() => setOpen(!open)}>
-          <Link href="/#home">
+          <Link href="/#home"  passHref>
             <li className={styles.nav__links}>Home </li>
           </Link>
-          <Link href="/#about">
+          <Link href="/#about" passHref>
             <li className={styles.nav__links}>About </li>
           </Link>
-          <Link href="/#skills">
+          <Link href="/#skills" passHref>
             <li className={styles.nav__links}>Skills </li>
           </Link>
 
-          <Link href="/#portfolio">
+          <Link href="/#portfolio" passHref>
             <li className={styles.nav__links}>Portfolio </li>
           </Link>
-          <Link href="/#contact">
+          <Link href="/#contact" passHref>
             <li className={styles.nav__links}>Contact </li>
           </Link>
         </ul> : <></>}
