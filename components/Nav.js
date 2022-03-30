@@ -8,10 +8,15 @@ function Nav() {
   const [open, setOpen] = useState()
   return (
     <div className={styles.nav} >
-      <Link href="/" passHref>
-      <Image height={200} width={200} src="/spB.png"  alt="a logo of an image of sp"/>
+    
+        <div className={styles.nav__logo}>
+        <Link href="/" passHref>
+        <Image height={14} width={27} src="/spB.png"  alt="a logo of an image of sp"/> 
+        </Link>
+        </div>
+     
         
-      </Link>
+
       <div className={styles.nav__menuContainer}>
         <MenuIcon className={styles.nav__menu} onMouseEnter={() => setOpen(!open)}  />
         {open ? <ul className={styles.nav__menuLinksContainer} onMouseLeave={() => setOpen(!open)}>
