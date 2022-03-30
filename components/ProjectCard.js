@@ -3,13 +3,13 @@ import Link from 'next/link'
 import { motion, AnimatePresence } from "framer-motion";
 import styles from "../styles/ProjectCard.module.css";
 import Image from 'next/image'
-function ProjectCard({ color, img,website }) {
+function ProjectCard({ color, img , website }) {
   return (
 
     <AnimatePresence>
       <Link href={`${website}`} passHref>
         <div exit={{ scale: 2 }} className={`${styles.projectCard} ${styles[color]}`}>
-          <Image height={200} width={200} src={img}  alt="a logo of project icon"/>
+          <Image height={110} width={170} src={`${img}`}  alt="a logo of project icon"/>
           
           {/* <div className={styles.projectCard__linkContainer}>
             <Link href={`/project/${color}`}>
