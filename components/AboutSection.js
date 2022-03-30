@@ -17,21 +17,21 @@ function AboutSection() {
                    <strong> Express</strong>, and <strong>Mongo DB</strong>.
                 </p>
                 <p className={styles.aboutSection__p}>
-                  <strong>React</strong> repellat, maxime officiis ex quis nisi,
-                quasi veniam eaque reiciendis, <strong>WebGL</strong> est quos
-                quas facere suscipit natus sed.
-              </p>
+                  I am a <strong>Web developer</strong> based in Connecticut.
+                  I  develop Full-Stack web applications for clients using
+                  <strong> React</strong>, <strong>Next JS</strong>,
+                   <strong> Express</strong>, and <strong>Mongo DB</strong>.
+                </p>
+              
                 <ContactLinks size="medium" />
                 <p className={styles.aboutSection__line}></p>
               </div>
+              <div className={styles.aboutSection__photo}>
               <Image  
+              src="/headshot.png" height={450} width={670}  alt="a logo of project icon"/>
+              </div>
               
-              className={styles.aboutSection__photo}
-                src="/headshot.png" height={450} width={400} layout="fixed" alt="a logo of project icon"/>
-              {/* <img
-              
-                alt=""
-              /> */}
+             
         </section>
     )
 }
