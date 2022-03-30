@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 import emailjs from "emailjs-com";
 import CheckCircleIcon from "@material-ui/icons/CheckCircle";
 import styles from "../styles/Form.module.css";
@@ -11,15 +10,15 @@ function Form() {
   const [message, setMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
   const [show, setShow] = useState(false);
-  console.log(process.env.SERVICE_ID)
+
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs
       .sendForm(
-        process.env.SERVICE_ID,
-        process.env.TEMPLATE_ID,
+        process.env.NEXT_PUBLIC_SERVICE_ID,
+        'template_nn15p0m',
         e.target,
-        process.env.USER_ID,
+        process.env.NEXT_PUBLIC_USER_ID,
       )
       .then(
         (result) => {
@@ -45,7 +44,7 @@ function Form() {
           <h6>message was sent successfully</h6>
         </div>
       ) : (
-      <h2>{errorMessage}</h2>
+          <h2>{errorMessage}</h2>
         )}
       <div className={styles.form__inputContainer}>
         <label htmlFor=""></label>
@@ -53,13 +52,11 @@ function Form() {
         <input
           className={styles.form__input}
           type="text"
-          // placeholder="Name"
           name="name"
           value={name}
           onChange={(e) => setName(e.target.value)}
         />
       </div>
-      {/* ######################################################### */}
       <div className={styles.form__holderContainer}>
         <div className={`${styles.form__inputContainer} ${styles.marginRight}`}>
           <label htmlFor="subject"></label>
@@ -68,13 +65,10 @@ function Form() {
             className={styles.form__input}
             name="subject"
             type="text"
-            // placeholder="Subject"
             value={subject}
             onChange={(e) => setSubject(e.target.value)}
           />
         </div>
-
-
         <div className={styles.form__inputContainer}>
           <label htmlFor="email"></label>
           <p className={styles.form__inputName}>Email</p>
@@ -82,7 +76,6 @@ function Form() {
             className={styles.form__input}
             name="email"
             type="text"
-            // placeholder="Email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
@@ -95,10 +88,8 @@ function Form() {
           className={styles.form__input}
           name="message"
           type="text"
-
           value={message}
           onChange={(e) => setMessage(e.target.value)}
-          placeholder="What can we do for you"
         />
       </div>
       <button type="submit" className={styles.form__btn}>
